@@ -1,0 +1,158 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --menu-color: #ff7506;
+    --hover-color: #fff2e7;
+    --btn-color: #ff9138;
+    --black: #000;
+    --white: #fff;
+    --font-family: 'IBM Plex Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+    width: 30px;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.Polaris-DataTable__Navigation {
+    display: none !important;
+}
+
+.Polaris-Pagination__TablePaginationActions {
+    display: flex;
+    align-items: center;
+}
+
+.Polaris-ShadowBevel {
+    padding: 30px;
+}
+
+.Polaris-DataTable__Table tr {
+    background-color: #fef3e6;
+    height: 50px;
+}
+
+.Polaris-DataTable__Table tbody {
+    padding: 30px;
+}
+
+.Polaris-DataTable__Table th {
+    padding: 10px;
+}
+
+.Polaris-Pagination.Polaris-Pagination--table {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#nextURL,
+#previousURL {
+    cursor: pointer;
+}
+
+.Polaris-Box {
+    margin: 0 20px;
+}
+
+#nextURL:hover,
+#previousURL:hover {
+    cursor: pointer;
+    background-color: #fef3e6;
+}
+
+.Polaris-Select__Content {
+    display: none !important;
+}
+
+.Polaris-Select__Input {
+    height: 30px;
+    width: 83px;
+    background-color: #fef3e6;
+    border-radius: 10px;
+}
+
+.Polaris-Select {
+    margin: 10px 0 15px 0;
+}
+
+.Polaris-Text--root {
+    font-weight: 700;
+}
+
+.Polaris-TextField__Input {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid #ff7505;
+}
+.Polaris-Button.Polaris-Button--pressable.Polaris-Button--variantSecondary.Polaris-Button--sizeMedium.Polaris-Button--textAlignCenter
+    .Polaris-Text--root,
+.Polaris-TextField__Resizer {
+    display: none !important;
+}
+
+.Polaris-Thumbnail img {
+    height: 100px;
+    margin-top: 5px;
+}
+
+.Polaris-Text--root input {
+    width: 250px !important;
+    margin-top: 5px;
+}
+
+.Polaris-Bleed div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+.FormInfo_scrollableForm__vbVpZ {
+    padding: 5px 10px;
+}
+
+.Polaris-InlineError__Icon {
+    display: none !important;
+}
+
+.Polaris-Labelled__Error span {
+    color: red;
+    font-size: 15px;
+}
+
+.Polaris-InlineError {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
